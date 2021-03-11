@@ -1,8 +1,11 @@
-var menuBurger = $(".hamburger-menu");
-var visible = $(".hamburger-menu li");
-
-menuBurger.click(
+$(".header-right > a").click(
   function(){
-    alert("ciao");
+    $(".hamburger-menu").addClass("active");
   }
 );
+
+$(".hamburger-menu .close").click(
+  function(){
+    $(".hamburger-menu").removeClass("active");
+  }
+)
