@@ -84,6 +84,31 @@ header {
     font-size: 35px;
     text-decoration: none;
 }
+
+.carousel {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel img {
+  width: 200px;
+}
+
+.images {
+  position: relative;
+}
+
+.images p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50px, 100px);
+  color: #fff;
+}
+
+
 @media screen and (max-width: 1000px)
 {
     .header-right ul {
