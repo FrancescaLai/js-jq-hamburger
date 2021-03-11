@@ -15,14 +15,14 @@ var testo = $(".images p");
 var immagine = $(".images img")
 var visible = true;
 
-testo.mouseover(
+immagine.click(
   function(){
-    if(visible == true){
-      immagine.fadeOut("slow");
+    if (visible == true) {
+      testo.fadeOut("slow");
       visible = false;
     } else {
-      immagine.fadeIn("fast");
+      testo.fadeIn("fast");
       visible = true;
     }
   }
-)
+);
