@@ -1,12 +1,14 @@
-$(".header-right > a").click(
+var hamburger = $(".hamburger-menu")
+
+$(".fas.fa-bars").click(
   function(){
-    $(".hamburger-menu").addClass("active");
+    hamburger.addClass("active");
   }
 );
 
-$(".hamburger-menu .close").click(
+$(".close").click(
   function(){
-    $(".hamburger-menu").removeClass("active");
+    hamburger.removeClass("active");
   }
 )
 

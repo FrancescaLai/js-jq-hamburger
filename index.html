@@ -5,71 +5,128 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>Hamburger Menu</title>
     </head>
     <body>
-
+      <!-- Header -->
         <header>
+          <div class="header-navbar">
+            <!-- Left -->
             <div class="header-left">
-                <img src="http://boolean.careers/images/misc/logo.png" alt="">
+              <ul>
+                <li>
+                  <a href="#">Shop</a>
+                </li>
+                <li>
+                  <a href="#">Designers</a>
+                </li>
+              </ul>
             </div>
+            <!-- /Left -->
+
+            <!-- Center -->
+            <div class="header-center">
+              <h1>SAMPLE SHOP</h1>
+            </div>
+            <!-- /Center -->
+
+            <!-- Right -->
             <div class="header-right">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Scopri il Corso</a>
-                    </li>
-                    <li>
-                        <a href="#">La nostra storia</a>
-                    </li>
-                    <li>
-                        <a href="#" class="cta">Iscriviti</a>
+                        <a href="#">About</a>
                     </li>
                 </ul>
+                <img src="img/bag2.jpg" alt="">
+                <img src="img/search.jpg" alt="">
                 <a href="#">
                     <i class="fas fa-bars"></i>
                 </a>
             </div>
+            <!-- /Right -->
+
             <div class="hamburger-menu">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
                     </li>
                     <li>
-                        <a href="#">Scopri il Corso</a>
+                        <a href="#">Designers</a>
                     </li>
                     <li>
-                        <a href="#">La nostra storia</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#" class="cta">Iscriviti</a>
+                        <a href="#" class="cta">Your bag</a>
                     </li>
                 </ul>
                 <a href="#" class="close">
                     <i class="fas fa-times"></i>
                 </a>
             </div>
+          </div>
         </header>
+        <!-- /Header -->
 
+        <!-- Main -->
         <main>
-          <div class="carousel">
-            <div class="images">
-              <p>Prada Fall-01</p>
-              <img src="img/fall-2.jpg" alt="">
+          <div class="main-index">
+            <div class="row">
+              <article class="product">
+                <img src="img/black-statue.jpg" alt="">
+                <p>Taschen</p>
+              </article>
+              <article class="product">
+                <img src="img/blue-ball.jpg" alt="">
+                <p>New Arrivals</p>
+              </article>
             </div>
-            <div class="images">
-              <p>Prada Fall-01</p>
-              <img src="img/fall-1.jpg" alt="">
-            </div>
-            <div class="images">
-              <p>Prada Fall-01</p>
-              <img src="img/fall-3.jpg" alt="">
+
+            <div class="row">
+              <article class="product">
+                <img src="img/yellow-glass.jpg" alt="">
+                <p>Balzac</p>
+              </article>
+              <article class="product">
+                <img src="img/books.jpg" alt="">
+                <p>Library</p>
+              </article>
             </div>
           </div>
+
         </main>
+        <!-- /Main -->
+
+        <footer>
+          <div class="footer-left">
+            <ul>
+              <li>
+                <a href="#">Policies</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Newsletter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-right">
+            <ul>
+              <li>
+                <a href="#">IG</a>
+              </li>
+              <li>
+                <a href="#">FB</a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="main.js" charset="utf-8"></script>
